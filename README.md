@@ -1,4 +1,3 @@
-![Lolipop](https://github.com/user-attachments/assets/837764c4-d49f-42e4-a8b4-94d4c22ead72)
 ![image](https://github.com/user-attachments/assets/2c01e61a-85ec-44cf-97e6-2b8415b07399)
 
 
