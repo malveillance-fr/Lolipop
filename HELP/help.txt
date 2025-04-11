@@ -1,0 +1,43 @@
+===========================================
+                LOLIPOP TOOL HELP
+===========================================
+
+Welcome to the Lolipop Tool 🍭! Below are the available commands and their descriptions.
+
+[ General Commands ]
+-------------------------------------------
+- lolipop -l
+  Description: Retrieves detailed information about your public IP address.
+  Usage: Run this command to view the information associated with your current IP.
+  
+- lolipop -i <ip_address>
+  Description: Retrieves detailed information about a specific IP address.
+  Usage: Replace <ip_address> with the IP address you want to look up.
+  Example: `lolipop -i 192.168.1.1`
+  
+[ Information Fields Explained ]
+-------------------------------------------
+The information retrieved from Lolipop Tool includes the following fields:
+
+- **IP Address**: The public or queried IP address.
+- **Location**: The physical location (city, country) of the IP address.
+- **Organization**: The organization or Internet Service Provider (ISP) associated with the IP.
+- **ISP**: The name of the Internet Service Provider (ISP).
+- **Country Code**: The ISO country code where the IP is located.
+- **Hostname**: The domain name or hostname associated with the IP (if available).
+- **Region**: The region or state associated with the IP address.
+- **City**: The city where the IP address is located.
+- **Latitude/Longitude**: The geographic coordinates of the IP address.
+- **Timezone**: The timezone of the location associated with the IP.
+  
+[ Advanced Features ]
+-------------------------------------------
+- Multiple API integrations: Lolipop pulls data from various APIs such as ipinfo.io, ip-api.com, and ipwho.is to provide comprehensive information.
+  
+- **DNS and Network Information**:
+  - Name Servers: List of DNS servers associated with the IP address.
+  - IPv4/IPv6: The IPv4 and IPv6 addresses linked to the queried IP.
+  
+- **Abuse Contact**:
+  - If available, Lolipop provides a contact email and phone number for reporting abuse related to the IP address.
+  
