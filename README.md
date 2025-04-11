@@ -36,5 +36,5 @@ You can install the required libraries using the following commands:
 
 ```bash
 pip install requests pystyle
-
-
+```
+![Demo_of_tool](https://github.com/malveillance-fr/Lolipop/blob/b63a66dd24860b1087129eae674bc74351944e3a/202504111607.gif)
