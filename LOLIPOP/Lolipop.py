@@ -1,46 +1,15 @@
-# ========================================================================
-#                                 LICENSE
-# ========================================================================
-# DISCLAIMER :
-#
-# 1. This program is intended for legal and educational purposes only. 
-# The user must comply with all applicable cybersecurity and data protection 
-# laws. Any unauthorized or illegal use is strictly prohibited.
-#
-# 2. It is prohibited to use this program to gather information without 
-# the consent of the domain owner. Any attempts to access unauthorized 
-# information are illegal and punishable by law.
-#
-# 3. The user is solely responsible for the use of this program. The 
-# developer is not liable for any damages, consequences, or legal 
-# issues arising from improper or unauthorized use.
-#
-# 4. This program is copyrighted. Any modification, resale, or 
-# redistribution of the code without express permission is strictly 
-# prohibited.
-#
-# 5. The program is provided "as-is" without warranty of any kind. 
-# The developer is not responsible for any malfunctions, data loss, 
-# or other types of damage.
-#
-# ========================================================================
-
-
-
-from pystyle import Colors, Colorate, Center, Write
+import datetime
 import os
 import requests
+from pystyle import Colors, Colorate, Center, Write
 
 os.system("title LOLIPOP TERMINAL")
 
 ascii_art = r"""
-                                        
-                                     
                   _    ___  _    _  ___  ___  ___               
                  | |  | . || |  <_>| . \| . || . \           
                  | |_ | | || |_ | ||  _/| | ||  _/            
                  |___|`___'|___||_||_|  `___'|_|              
-                                                    
 """
 
 menu = """
@@ -169,6 +138,28 @@ def lookup_ip(ip=None):
     except:
         Write.Print("[!] Failed to connect to geolocation-db.com\n", Colors.red, interval=0.01)
 
+def save_log(action, additional_info=None):
+    log_message = f"{datetime.datetime.now()} - ACTION: {action}"
+    
+    if additional_info:
+        log_message += f" - INFO: {additional_info}"
+    
+    with open("logs.txt", "a") as log_file:
+        log_file.write(log_message + "\n")
+
+def tool_started():
+    save_log("Tool started", additional_info="Initialization complete.")
+
+def tool_closed():
+    save_log("Tool closed", additional_info="Process terminated normally.")
+
+def action_performed(action_name):
+    save_log(f"Action performed: {action_name}", additional_info="Action completed successfully.")
+
+tool_started()  
+action_performed("Performing task A")  
+tool_closed()
+
 def main():
     os.system("cls" if os.name == "nt" else "clear")
     print(Colorate.Vertical(Colors.red_to_blue, Center.XCenter(ascii_art)))
@@ -196,4 +187,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-input("")
+    input("")
