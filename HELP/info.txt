@@ -1,0 +1,43 @@
+===========================================
+              LOLIPOP TOOL HELP
+===========================================
+
+[ General Information ]
+- ip_address        : The IP address you are querying
+- location          : Physical location of the IP (e.g., city, country)
+- organization      : The organization or ISP associated with the IP
+- isp               : The Internet Service Provider (ISP) handling the IP
+- country_code      : The country code associated with the IP address
+- country_name      : Full name of the country of the IP address
+
+[ IP Lookup Details ]
+- hostname          : The hostname or reverse DNS lookup result for the IP
+- city              : City of the IP address
+- region            : Region (state/province) of the IP address
+- zip_code          : Postal or ZIP code associated with the IP address
+- latitude          : Latitude of the IP address location
+- longitude         : Longitude of the IP address location
+- timezone          : Timezone of the IP address
+
+[ API Information ]
+- ipinfo_api        : Information retrieved from ipinfo.io API
+- ip_api_api        : Information retrieved from ip-api.com API
+- ipwho_is_api      : Information retrieved from ipwho.is API
+
+[ Connection Information ]
+- asn               : Autonomous System Number (ASN) associated with the IP
+- as_name           : Name of the Autonomous System
+- connection_type   : Type of connection (e.g., broadband, mobile, etc.)
+- mobile_network    : Mobile network name if the IP belongs to a mobile carrier
+
+[ Additional Information (If Available) ]
+- vpn               : Indicates if the IP is associated with a VPN or proxy service
+- proxy             : Indicates if the IP is behind a proxy
+- tor               : Indicates if the IP is linked to the Tor network
+- abuse_contact     : Email or phone number for reporting abuse related to the IP
+
+===========================================
+    Note: Some information may be hidden
+   depending on the API response or privacy
+        settings of the IP address.
+===========================================
