@@ -1,7 +1,6 @@
 ![Lolipop](https://github.com/user-attachments/assets/837764c4-d49f-42e4-a8b4-94d4c22ead72)
-![image](https://github.com/user-attachments/assets/1d3e701d-f42c-45e9-b9ab-b48932689606)  ![image](https://github.com/user-attachments/assets/fd65b6bf-1c9b-431d-a955-bc9a67fca5ce)
-![image](https://github.com/user-attachments/assets/ff37597c-bd6d-4a8a-b231-3f5a28c88a23) ![image](https://github.com/user-attachments/assets/c998a42f-e6d3-4c7f-8240-4aa7dd873a51) ![image](https://github.com/user-attachments/assets/c7c1e43a-415c-422f-9dc2-bf723ee71631)
-![image](https://github.com/user-attachments/assets/82fcb89e-ecab-4882-9893-f0a950f9927c)
+![image](https://github.com/user-attachments/assets/2c01e61a-85ec-44cf-97e6-2b8415b07399)
+
 
 
 # Lolipop Tool 🍭
