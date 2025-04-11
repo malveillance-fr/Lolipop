@@ -20,7 +20,7 @@ Lolipop is an easy-to-use, dynamic command-line tool that provides detailed info
 - **Multiple API integrations**: 
    - Information is fetched from several popular IP information APIs like `ipinfo.io`, `ip-api.com`, `ipwho.is`, and others.
    - Lolipop uses these APIs to give you a comprehensive view of any given IP.
-  
+
 - **Dynamic display**: 
    - The tool displays the gathered information in an organized, visually appealing way using color-coded outputs.
    - The interface is built to be engaging and easy to follow, ensuring a smooth user experience.
@@ -36,4 +36,5 @@ You can install the required libraries using the following commands:
 
 ```bash
 pip install requests pystyle
+
 
