@@ -1,4 +1,10 @@
+:: basic setup configuration 
+
 @echo off
+cls 
+color 6
+:: starting setup
+
 echo ===========================================
 echo       LOLIPOP TOOL - SETUP SCRIPT
 echo ===========================================
@@ -17,20 +23,21 @@ pip --version >nul 2>&1
 if %ERRORLEVEL% neq 0 (
     echo pip is not installed. Installing pip...
     python -m ensurepip --upgrade
+    python -m pip install --upgrade pip
+
 )
 
 echo Installing required Python libraries...
 pip install requests pystyle
+pip install --upgrade requests selenium urllib3
+pip3 install 
+
 
 echo Checking if project directory exists...
 if not exist "Lolipop" (
     echo Creating project directory...
     mkdir Lolipop
 )
-
-echo Cloning Lolipop repository...
-:: Replace with the actual GitHub repository URL if needed
-:: git clone https://github.com/Malveillance/Lolipop.git
 
 echo Verifying installation...
 pip show requests >nul 2>&1
@@ -60,7 +67,7 @@ if %ERRORLEVEL% neq 0 (
 )
 
 echo Creating default configuration files...
-if not exist "Lolipop\config.ini" (
+if not exist "LOLIPOP\config.ini" (
     echo [settings] > Lolipop\config.ini
     echo mode=default >> Lolipop\config.ini
     echo timeout=30 >> Lolipop\config.ini
@@ -74,8 +81,10 @@ echo ===========================================
 echo.
 
 echo To run Lolipop, use the following command:
-echo python Lolipop\lolipop.py
+echo python LOLIPOP\Lolipop.py
 echo.
 
-pause
+
+echo Make sure you have python version 3.12.x.
+pause>nul
 exit
