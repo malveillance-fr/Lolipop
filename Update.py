@@ -2,7 +2,7 @@ import git
 import os
 import sys
 
-repo_dir = 'path\to\your\gitclone\of\Lolipop'  
+repo_dir = 'path\to\your\gitclone\of\Lolipop'  # put the path to your Lolipop gitclone here
 
 def update_repo():
     try:
