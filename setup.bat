@@ -3,6 +3,7 @@
 @echo off
 cls 
 color 6
+
 :: starting setup
 
 echo ===========================================
