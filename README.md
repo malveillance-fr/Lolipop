@@ -11,10 +11,9 @@
 
 # Lolipop Tool 🍭
 
-## Description
 Lolipop is an easy-to-use, dynamic command-line tool that provides detailed information about IP addresses using multiple external APIs. Whether you want to retrieve data about your own IP address or look up any other IP, Lolipop has you covered. With a colorful and engaging terminal interface powered by the `pystyle` library, you can get IP information in a visually appealing and user-friendly way.
 
-## Features ✨
+# Features ✨
 - **View your IP information**: 
    - Use the command `lolipop -l` to instantly grab detailed information about your public IP address.
    - This includes details like location, organization, and more.
@@ -31,7 +30,7 @@ Lolipop is an easy-to-use, dynamic command-line tool that provides detailed info
    - The tool displays the gathered information in an organized, visually appealing way using color-coded outputs.
    - The interface is built to be engaging and easy to follow, ensuring a smooth user experience.
   
-## Requirements ⚙️
+# Requirements ⚙️
 To run Lolipop Tool, you need the following:
 - Python 3.x
 - `requests` library
