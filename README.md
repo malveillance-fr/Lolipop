@@ -3,8 +3,8 @@
 
 
 |   Command   |        Function        |
-|-------------|------------------------|       Example of the lolipop bulletin board, you have an overview of the commands.
-| lolipop -l  | lookup my ip           |                           Track you or track others.
+|-------------|------------------------|       
+| lolipop -l  | lookup my ip           |                           
 | lolipop -i  | lookup others ip       |
 
 
