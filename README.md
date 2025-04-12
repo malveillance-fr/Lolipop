@@ -2,10 +2,10 @@
 
 
 
-|   Command   |        Function        |
-|-------------|------------------------|       
-| lolipop -l  | lookup my ip           |                           
-| lolipop -i  | lookup others ip       |
+|   Command   |        Function        |       Link      |
+|-------------|------------------------|-----------------|      
+| lolipop -l  | lookup my ip           |  Website (soon) |                         
+| lolipop -i  | lookup others ip       | [Github](https://github.com/malveillance-fr/Lolipop/) |
 
 
 
