@@ -2,9 +2,10 @@
 
 
 
-|------------|--------------------|
-| lolipop -l | lookup my ip       |
-| lolipop -i | lookup others ip   |
+|   Command   |        Function        |
+|-------------|------------------------|
+| lolipop -l  | lookup my ip           |
+| lolipop -i  | lookup others ip       |
 
 
 
