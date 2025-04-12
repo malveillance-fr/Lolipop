@@ -11,6 +11,7 @@ echo       LOLIPOP TOOL - SETUP SCRIPT
 echo ===========================================
 echo.
 
+title 1/8 - Checking if Python is installed
 echo Checking if Python is installed...
 python --version >nul 2>&1
 if %ERRORLEVEL% neq 0 (
@@ -19,6 +20,7 @@ if %ERRORLEVEL% neq 0 (
     exit /b
 )
 
+title 2/8 - Checking if pip is installed
 echo Checking if pip is installed...
 pip --version >nul 2>&1
 if %ERRORLEVEL% neq 0 (
@@ -28,18 +30,20 @@ if %ERRORLEVEL% neq 0 (
 
 )
 
+title 3/8 - Installing required libraries
 echo Installing required Python libraries...
 pip install requests pystyle
 pip install --upgrade requests selenium urllib3
 pip3 install 
 
-
+title 4/8 - Checking if Lolipop is in the required folder
 echo Checking if project directory exists...
 if not exist "Lolipop" (
     echo Creating project directory...
     mkdir Lolipop
 )
 
+title 5/8 - Verifying installation
 echo Verifying installation...
 pip show requests >nul 2>&1
 if %ERRORLEVEL% neq 0 (
@@ -55,6 +59,7 @@ if %ERRORLEVEL% neq 0 (
     exit /b
 )
 
+title 6/8 - Setting up environment variables..
 echo Setting up environment variables...
 setx LOLIPOP_DIR "%CD%\Lolipop"
 echo LOLIPOP_DIR="%CD%\Lolipop" >> "%USERPROFILE%\AppData\Local\Temp\LolipopEnv.txt"
@@ -67,6 +72,7 @@ if %ERRORLEVEL% neq 0 (
     pause
 )
 
+title 7/8 - Creating default configuration files
 echo Creating default configuration files...
 if not exist "LOLIPOP\config.ini" (
     echo [settings] > Lolipop\config.ini
@@ -75,7 +81,8 @@ if not exist "LOLIPOP\config.ini" (
     echo Configuration file created.
 )
 
-echo.
+title 8/8 - Setup Complete !
+echo. 
 echo ===========================================
 echo Setup Complete! Lolipop Tool is ready to use.
 echo ===========================================
