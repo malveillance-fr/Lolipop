@@ -4,7 +4,7 @@
 
 |   Command   |        Function        |       Link      |
 |-------------|------------------------|-----------------|      
-| lolipop -l  | lookup my ip           |  Website (soon) |                         
+| lolipop -l  | lookup my ip           | [Website](https://github.com/malveillance-fr/LolipopWeb/) |                         
 | lolipop -i  | lookup others ip       | [Github](https://github.com/malveillance-fr/Lolipop/) |
 
 
