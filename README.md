@@ -2,6 +2,11 @@
 
 
 
+|------------|--------------------|
+| lolipop -l | lookup my ip       |
+| lolipop -i | lookup others ip   |
+|---------------------------------|
+
 
 # Lolipop Tool 🍭
 
